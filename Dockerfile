@@ -1,3 +1,4 @@
 FROM gitpod/workspace-full-vnc
 RUN apt-get update \
-    && apt-get install -y libnss
+    # electron
+    && sudo apt-get install -y libgtk-3-0 libnss3 libasound2 libgbm1
