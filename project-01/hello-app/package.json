@@ -1,0 +1,29 @@
+{
+  "name": "hello-app",
+  "version": "1.0.0",
+  "description": "Aplicação multiplataforma criada com Electron js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igoandrade/electronjs_tutorial.git"
+  },
+  "keywords": [
+    "aplicação",
+    "escritório",
+    "multiplataforma",
+    "electron",
+    "js"
+  ],
+  "author": "Igo da Costa Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igoandrade/electronjs_tutorial/issues"
+  },
+  "homepage": "https://github.com/igoandrade/electronjs_tutorial#readme",
+  "devDependencies": {
+    "electron": "^16.0.4"
+  }
+}
