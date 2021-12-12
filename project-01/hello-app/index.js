@@ -1,5 +1,5 @@
 // 1. Import electron objects
-import { app, BrowserWindow } from 'electron';
+const { app, BrowserWindow } = require('electron');
 
 
 // 2. Reserve a reference to window object
